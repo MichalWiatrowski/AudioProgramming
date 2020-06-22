@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73147caedf3e4c54ba6b417852b5e8a8, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3efd9ddf948dd346bb4345156e7c4643
+    GuidInternal: 
+    m_lastTime: -8586259490854541039
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 75ae68dc629cd148959087ba10c2e9a6
+    GuidInternal: 
+    m_lastTime: -8586259490853803015
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 30af9651e607c847901b8fbf7aed07c2
+    GuidInternal: 
+    m_lastTime: -8586258542090648686
+    List:
+    - name: Main
+      guid: 533c055b1c15b746a3c21485a90b3bff
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7cb4b95c96087d4e95d8dd0f2094e554
+    GuidInternal: 
+    m_lastTime: -8586258542090738442
+    List:
+    - name: LightFlicker_Play
+      guid: faaa3e352743744c9fc861ae78aebe29
+      id: 2060652138
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LightFlicker_Play
+        ObjectType: 3
+      Path: Default Work Unit\LightFlicker_Play
+      maxAttenuation: 15
+      maxDuration: 1.7161
+      minDuration: 1.7161
+    - name: ZombieHurtSound_Play
+      guid: a96fd3ec97383f4aa17f5b688ea3d963
+      id: 3293231774
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ZombieHurtSound_Play
+        ObjectType: 3
+      Path: Default Work Unit\ZombieHurtSound_Play
+      maxAttenuation: 0
+      maxDuration: 0.809841
+      minDuration: 0.721791
+    - name: ZombieSound_Play
+      guid: bd373fe467f3d549a513b1cb071e02ac
+      id: 1623087197
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ZombieSound_Play
+        ObjectType: 3
+      Path: Default Work Unit\ZombieSound_Play
+      maxAttenuation: 25
+      maxDuration: 1.230658
+      minDuration: 1.230658
+    - name: ZombieSound_Stop
+      guid: a38bc36b5ccd6e46b4c49241472b85e5
+      id: 3808826059
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ZombieSound_Stop
+        ObjectType: 3
+      Path: Default Work Unit\ZombieSound_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0afc144b7a6d24409b6e89a508ace451
+    GuidInternal: 
+    m_lastTime: -8586259490853922690
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 5b30b413012d314693ba0bb260725310
+    GuidInternal: 
+    m_lastTime: -8586259490853294363
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7408108e601267498cd7e0b3f43424a6
+    GuidInternal: 
+    m_lastTime: -8586259490853244494
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7cefd9ad29cfe44b9de2c636f64b471f
+    GuidInternal: 
+    m_lastTime: -8586259490854471218
+    List: []
+  ExpandedItems:
+  - /AudioProgramming_WwiseProject
+  - /AudioProgramming_WwiseProject/Events
+  - /AudioProgramming_WwiseProject/Events/Default Work Unit
+  - /AudioProgramming_WwiseProject/SoundBanks
+  - /AudioProgramming_WwiseProject/SoundBanks/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
